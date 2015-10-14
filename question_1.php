@@ -1,7 +1,6 @@
 <?php
 namespace SoftwareEngineerTest;
 use PDO;
-ini_set('display_errors', 1);
 
 // Question 1a
 
