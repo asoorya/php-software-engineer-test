@@ -125,27 +125,3 @@ class CustomerFactory {
 	}
  }
  
- $customer = new Bronze_Customer(12);
- echo $customer->deposit(100);
- echo "<pre>";print_r($customer);echo "</pre>";
-  $customer->generate_username($customer);
-  echo $customer->get_username();
- echo "<br />";
- 
- $silver_customer = new Silver_Customer(14);
- echo $silver_customer->deposit(100);
- echo "<pre>";print_r($silver_customer);echo "</pre>";
- echo $silver_customer->generate_username($silver_customer);
- echo $silver_customer->get_username();
- echo "<br />";
- 
- $gold_customer = new Gold_Customer(16);
- echo $gold_customer->deposit(100);
- echo "<pre>";print_r($gold_customer);echo "</pre>";
- echo $gold_customer->generate_username($gold_customer);
- echo $gold_customer->get_username();
- echo "<br />";
- 
- $check_customer = CustomerFactory::get_instance("GAANB878");
- echo "<pre>";print_r($check_customer);echo "</pre>";
- 
