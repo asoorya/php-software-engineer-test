@@ -6,8 +6,8 @@ use PDO;
 
 $DB_HOST = 'localhost';
 $DB_NAME = 'test';
-$DB_USER = 'esolvendor6';
-$DB_PASS = 'ven6P@55';
+$DB_USER = 'test';
+$DB_PASS = 'test';
 
 // write your sql to get customer_data here
 try {
